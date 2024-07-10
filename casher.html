@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <p id="list"></p>
+    <button onclick="next()">Siguiente</button>
+    <script>
+        const ws = new WebSocket('ws://localhost:8080')
+        ws.onopen = () => {
+            ws.send(JSON.stringify({
+                type: 'cashier',
+                op: 'con'
+            }))
+        }
+        ws.onmessage = ({data}) => {
+            const queue = JSON.parse(data)
+            if(queue.type === 'inTurn') {
+                document.querySelector('h1').innerHTML = `In turn: ${queue.inTurn.name}`
+            }
+            document.querySelector('#list').innerHTML = queue.map(el => el.name)
+            console.log(queue)
+        }
+
+        function next() {
+            ws.send(JSON.stringify({
+                type: 'cashier',
+                op: 'next'
+            }))
+        }
+    </script> 
+</body>
+</html>

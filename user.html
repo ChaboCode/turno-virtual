@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="name" id="name" placeholder="nombre">
+    <button>
+        Solicitar turno
+    </button>
+
+</body>
+<script>
+    const socket = new WebSocket('ws://localhost:8080')
+    socket.onopen = () => {
+        console.log('e')
+    }
+
+    socket.onmessage = ({ data }) => {
+        console.log('Message from server', data)
+    }
+
+    document.querySelector('button').addEventListener('click', () => {
+        socket.send(JSON.stringify({
+            type: 'turn',
+            name: document.querySelector('#name').value,
+            tramit: 'Placas'
+        }))
+    })
+</script>
+
+</html>
