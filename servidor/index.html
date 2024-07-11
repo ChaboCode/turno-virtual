@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar Datos a Redis</title>
+</head>
+<body>
+  <h1>Enviar Datos a Redis</h1>
+  <form id="dataForm">
+    <label for="key">Turnos</label>
+    <br>
+    <label for="value">Valor:</label>
+    <input type="text" id="value" name="value" required><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    document.getElementById('dataForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const value = document.getElementById('value').value;
+
+      fetch('/data', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ value })  // Envía los datos al servidor
+      })
+      .then(response => response.text())
+      .then(data => {
+        alert(data);  // Muestra el mensaje de respuesta del servidor
+        document.getElementById('dataForm').reset();  // Limpia el formulario después de enviar
+      })
+      .catch(error => console.error('Error:', error));
+    });
+  </script>
+</body>
+</html>
