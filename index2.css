@@ -1,0 +1,235 @@
+select {
+    border: none;
+    background: none;
+    font-size: 20px;
+    height: 100%;
+}
+
+.hola {
+    margin: 0;
+}
+
+.hola-usuario {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hola-usuario-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #a57c00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar-sesion {
+    width: 153px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.cerrar-sesion-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-container {
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.elige-tu-trmite {
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 69px;
+    flex-shrink: 0;
+}
+
+.help-icon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    object-fit: cover;
+}
+
+.oficina-dropdown {
+    width: 182px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.help-parent {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 43px;
+}
+
+.document-icon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    object-fit: cover;
+}
+
+.trmite-dropdown {
+    width: 187px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.document-parent {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.subtrmite-dropdown {
+    width: 220px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.document-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.oip-2-1 {
+    width: 50px;
+    position: relative;
+    height: 51.1px;
+    object-fit: cover;
+}
+
+.sucursal-dropdown {
+    width: 197px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.oip-2-1-parent {
+    align-self: stretch;
+    height: 51.1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 42px;
+}
+
+.elige-tu-trmite-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    gap: 14px;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+}
+
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+
+.solicitar-turno {
+    position: relative;
+}
+
+.solicitar-turno-wrapper {
+    border: none;
+    color: white;
+    width: 306px;
+    border-radius: 35px;
+    background: #25bb1a;
+    height: 81px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 35px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.frame-parent {
+    width: 100%;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 42px;
+}
+
+.usuario-solicitar-turno {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 844px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-family: Inter;
+}

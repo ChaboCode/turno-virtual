@@ -1,0 +1,162 @@
+.hola {
+    margin: 0;
+}
+.hola-usuario-txt-container {
+    width: 100%;
+}
+.hola-usuario {
+    width: 148px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex-shrink: 0;
+}
+.hola-usuario-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #a57c00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar-sesion {
+    width: 153px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    flex-shrink: 0;
+}
+.cerrar-sesion-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #080808;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame-group {
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tu-turno {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    flex-shrink: 0;
+}
+.b08 {
+    align-self: stretch;
+    position: relative;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+    flex-shrink: 0;
+}
+.personas-en-la {
+    align-self: stretch;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.cuando-seas-la {
+    align-self: stretch;
+    position: relative;
+    font-size: 12px;
+    color: #777;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.ubicacin-enlace-a {
+    width: 292px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 216px;
+    flex-shrink: 0;
+}
+.ubicacin-enlace-a-google-map-wrapper {
+    align-self: stretch;
+    border: 1px solid #585858;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tu-turno-parent {
+    width: 322px;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 15px 23px;
+    box-sizing: border-box;
+    gap: 4px;
+    font-size: 24px;
+    color: #000;
+}
+.cancelar-turno {
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    flex-shrink: 0;
+}
+.cancelar-turno-wrapper {
+    width: 322px;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 15px 23px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.frame-parent {
+    width: 100%;
+    height: 844px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+.usuario-esperando-turno {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-family: Inter;
+}
+

@@ -1,0 +1,80 @@
+.a900d52-937c-4fc9-b80a-033606d-icon {
+  	position: absolute;
+    width: 100%;
+    height: 100%;
+  	top: 0px;
+  	left: 0px;
+  	object-fit: cover;
+}
+.optimizado-con {
+  	width: 246px;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 76px;
+  	flex-shrink: 0;
+}
+.r-1-icon {
+  	width: 20%; 
+  	position: relative;
+  	border-radius: 301px;
+  	object-fit: fill;
+}
+.optimizado-con-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+}
+.iniciar-sesin {
+  	width: 126px;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 38px;
+  	flex-shrink: 0;
+}
+.iniciar-sesin-wrapper {
+  	width: 227px;
+  	border-radius: 60px;
+  	background: linear-gradient(rgba(77, 115, 141, 0.8), rgba(77, 115, 141, 0.8)), rgba(77, 115, 141, 0);
+  	height: 107px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 34px 50px;
+  	box-sizing: border-box;
+  	font-family: Inter;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+    width: 100%;
+    height: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 0px 82px;
+  	box-sizing: border-box;
+}
+.login-universal {
+  	width: 100%;
+    height: 100vh;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 30px;
+  	color: #fff;
+  	font-family: 'Istok Web';
+}
+
+

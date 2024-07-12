@@ -1,0 +1,178 @@
+button {
+    font-size: 24px;
+    border: none;
+}
+
+button:active {
+    border: 1px solid black;
+}
+
+.tramite-placas {
+    width: 123.3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    flex-shrink: 0;
+}
+.tramite-placas-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #031563;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar-sesion {
+    width: 153px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    flex-shrink: 0;
+}
+.cerrar-sesion-wrapper {
+    align-self: stretch;
+    flex: 1;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.frame-group {
+    width: 100%;
+    background-color: #fff;
+    height: 90px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    color: #00d4ff;
+}
+.turno-actual {
+    width: 198px;
+    position: relative;
+    color: #0018a1;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.b05 {
+    position: relative;
+}
+.ngel-adrin-alvarado {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.turno-actual-parent {
+    width: 80%; 
+    border: 5px solid #0421a0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+    text-align: left;
+    font-size: 32px;
+}
+.atender-turno {
+    width: 209px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.atender-turno-wrapper {
+    border-radius: 20px;
+    background-color: #25bb1a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+}
+.brincar-turno {
+    width: 196px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.brincar-turno-wrapper {
+    border-radius: 20px;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+}
+.prximos-turnos {
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.b06-jimena {
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    flex-shrink: 0;
+}
+.prximos-turnos-parent {
+    width: 322px;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.frame-parent {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+.cajero {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 844px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+
