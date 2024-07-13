@@ -1,0 +1,14 @@
+type Turn = 
+ record {
+   id: int;
+   name: text;
+   office: text;
+   status: int;
+ };
+service : {
+  addTurn: (text, text) -> (nat);
+  getCurrentTurn: () -> (opt Turn);
+  greet: (text) -> (text) query;
+  nextTurn: () -> () oneway;
+  showTurns: () -> (vec Turn);
+}
